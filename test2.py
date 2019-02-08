@@ -3,7 +3,7 @@ from time import sleep
 
 options = webdriver.ChromeOptions()
 options.add_argument("--disable-notifications")
-driver = webdriver,Chrome('./chromedriver.exe', options = options)
+driver = webdriver.Chrome('./chromedriver.exe', options = options)
 
 driver.get('https://www.facebook.com/')
 print ("Opend facebook...")
